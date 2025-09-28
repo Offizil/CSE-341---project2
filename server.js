@@ -32,18 +32,10 @@ process.on("uncaughtException", (err) => {
   );
 });
 
+
 app.use("/", router); // Use the index route for the root path
 
-// default route
-// app.get("/", (req, res) => {
-//   res.send("Hello World!");
-// });
 
-// routes
-// const inventoryRoutes = require("./routes/inventory");
-// app.use("/inventory", inventoryRoutes); // Use inventory routes for /inventory path
-
-// connect to database and start server
 mongodb.initDb((err, mongodb) => {
   if (err) {
     console.log(err);

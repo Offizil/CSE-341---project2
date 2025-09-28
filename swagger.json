@@ -5,7 +5,7 @@
     "description": "API documentation for Team - my project 2",
     "version": "1.0.0"
   },
-  "host": "localhost:5000",
+  "host": "cse-341-project2-lpfa.onrender.com/",
   "basePath": "/",
   "schemes": ["http"],
   "paths": {
