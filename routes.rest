@@ -45,3 +45,51 @@ Delete http://localhost:5000/players/68d884d3ff82f2cfb9b6d5d2  HTTP/1.1
 
 
 
+# -----------------------------------------------------------
+# test for staff members
+
+# LOCAL HOST
+### Get all user 
+Get http://localhost:5000/staffs
+
+
+
+### get single user by id 
+GET http://localhost:5000/staffs/68e194f471aa5e9f3db27d90
+
+
+
+### create new user
+POST http://localhost:5000/staffs
+Content-Type: application/json
+
+
+{
+    "name": "ralph young",
+    "age": 45,
+    "rating": 7.9,
+    "position": "head coach",
+    "team": "TEAM-b",
+    "trophies": 8
+}
+
+
+### modify user by id
+put http://localhost:5000/staffs/68e194a371aa5e9f3db27d8f HTTP/1.1
+Content-Type: application/json
+
+{
+    
+    "name": "fidel young",
+    "age": 29,
+    "rating": 5.9,
+    "position": "super coach",
+    "team": "team D",
+    "trophies": 8
+}   
+
+### delete user by id
+Delete http://localhost:5000/staffs/68e194a371aa5e9f3db27d8f  HTTP/1.1
+
+
+

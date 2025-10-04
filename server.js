@@ -24,6 +24,8 @@ app.use((req, res, next) => {
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
+
+
 // error handling for uncaught exceptions
 process.on("uncaughtException", (err) => {
   console.log(
@@ -35,6 +37,14 @@ process.on("uncaughtException", (err) => {
 
 app.use("/", router); // Use the index route for the root path
 
+
+// Catch-all error handler for unhandled errors
+app.use((err, req, res, next) => {
+  console.error("Unhandled error:", err);
+  res.status(err.status || 500).json({
+    error: err.message || "Something went wrong on the server",
+  });
+});
 
 mongodb.initDb((err, mongodb) => {
   if (err) {

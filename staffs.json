@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Jonnes Kaino",
+    "age": 45,
+    "rating": 4,
+    "position": "Coach",
+    "team": "Team A",
+    "trophies": 5
+  },
+  {
+    "name": "Maria Alvarez",
+    "age": 38,
+    "rating": 5,
+    "position": "Assistant Coach",
+    "team": "Team B",
+    "trophies": 3
+  },
+  {
+    "name": "David Kim",
+    "age": 50,
+    "rating": 4,
+    "position": "Technical Director",
+    "team": "Team C",
+    "trophies": 7
+  },
+  {
+    "name": "Sandra Obiora",
+    "age": 42,
+    "rating": 5,
+    "position": "Head Coach",
+    "team": "Team D",
+    "trophies": 6
+  },
+  {
+    "name": "Liam O'Connor",
+    "age": 36,
+    "rating": 4,
+    "position": "Fitness Trainer",
+    "team": "Team A",
+    "trophies": 2
+  },
+  {
+    "name": "Chinedu Okeke",
+    "age": 40,
+    "rating": 5,
+    "position": "Scout",
+    "team": "Team E",
+    "trophies": 1
+  },
+  {
+    "name": "Fatima Diallo",
+    "age": 34,
+    "rating": 4,
+    "position": "Physiotherapist",
+    "team": "Team B",
+    "trophies": 0
+  },
+  {
+    "name": "Robert Smith",
+    "age": 48,
+    "rating": 5,
+    "position": "Head Coach",
+    "team": "Team F",
+    "trophies": 9
+  },
+  {
+    "name": "Elena Petrova",
+    "age": 41,
+    "rating": 4,
+    "position": "Goalkeeping Coach",
+    "team": "Team D",
+    "trophies": 3
+  },
+  {
+    "name": "Tunde Bassey",
+    "age": 39,
+    "rating": 4,
+    "position": "Analyst",
+    "team": "Team C",
+    "trophies": 1
+  }
+]
